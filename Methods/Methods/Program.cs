@@ -98,6 +98,7 @@
 #region 3.Kısım
 using Methods;
 using Methods.oop;
+using Methods.oop_Object_Oriented_Programming_;
 
 // CONSTRUCTUR - DESTRUCTUR
 Araba araba = new Araba("AUDI");
@@ -112,7 +113,11 @@ ogrenci.harcama = 15000;
 Console.WriteLine($"ApiKey: {ogrenci.a1}, ApiSecret: {ogrenci.a2}, Maas: {ogrenci.harcama}");
 
 //INHERITANCE
+Kedi cat = new Kedi();
+cat.SesCikar("Miyavv!!!");
 
+Kopek dog = new Kopek();
+dog.SesCikar("Hav Hav !!!");
 
 
 #endregion
