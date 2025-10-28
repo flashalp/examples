@@ -144,7 +144,6 @@ List<Soru> sorular = new List<Soru>()
                 DogruCevap = 'D'
             }
         };
-
 //TODO: Soruları döngü ile göster
 int puan = 0;
 int soruSayisi = 1;
@@ -169,7 +168,7 @@ SoruTekrar:
         Console.WriteLine($"Doğru! Toplam puanınız: {puan}");
         soruSayisi++;
     }
-    else if (kullaniciCevap != 'A' & kullaniciCevap != 'C' & kullaniciCevap != 'C' & kullaniciCevap != 'D')
+    else if (kullaniciCevap != 'A' & kullaniciCevap != 'B' & kullaniciCevap != 'C' & kullaniciCevap != 'D')
     {
         Console.WriteLine("\nGeçersiz cevap. Lütfen A, B, C veya D seçeneklerinden birini giriniz.");
         goto SoruTekrar;
