@@ -56,7 +56,7 @@ Console.Write("(Sunucu) Simdi yarismaya baslayalim mi (E/H)?: ");
 string yarismaBaslangicCevapVer = Console.ReadLine();
 if (yarismaBaslangicCevapVer.ToUpper().Equals("E"))
 {
-    int kazanc = 500;
+    int kazanc = 0;
     YarismaMesajlari.YarismaBasliyorMesajiVer();
     SoruCevap soruCevap = new SoruCevap();
     for (int i = 0; i < 15; i++)
