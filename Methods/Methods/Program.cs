@@ -96,9 +96,9 @@
 #endregion
 #endregion
 #region 3.Kısım
-//using Methods;
-//using Methods.oop;
-//using Methods.oop_Object_Oriented_Programming_;
+using Methods;
+using Methods.oop;
+using Methods.oop_Object_Oriented_Programming_;
 
 //// CONSTRUCTUR - DESTRUCTUR
 //Araba araba = new Araba("AUDI");
@@ -118,6 +118,4 @@
 
 //Kopek dog = new Kopek();
 //dog.SesCikar("Hav Hav !!!");
-
-
 #endregion

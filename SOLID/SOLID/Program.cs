@@ -1,7 +1,4 @@
-﻿using SOLID;
-using SOLID.LiskovSubstitution;
-using SOLID.OpenClosed;
-#region SINGLE RESPONSIBILITY PRINCIPLE (Tek Sorumluluk)
+﻿#region SINGLE RESPONSIBILITY PRINCIPLE (Tek Sorumluluk)
 // Her sinifin tek bir sorumlulugu olmalidir. Bir sinifin degistirilme nedeni sadece bir tane olmalidir.
 //StudentService studentService = new StudentService();
 //studentService.CreateStudent();
@@ -21,9 +18,41 @@ using SOLID.OpenClosed;
 
 #region LISKOV SUBSTITUTION PRINCIPLE (Liskov Yerine Gecme)
 // Alt siniflar, ust siniflarin yerine  ecmlei ve sistem dogru sekildi calismaya devam etmelidir.
-Eagle eagle = new Eagle();
-eagle.Fly();
+//Eagle eagle = new Eagle();
+//eagle.Fly();
 
-Penguen penguen = new Penguen();
-penguen.Fly();
+//Penguen penguen = new Penguen();
+//penguen.Fly();
+#endregion
+
+#region INTERFACE SEGREGATION PRINCIPLE
+
+//using SOLID.InterFaceSegregation;
+
+//Human human = new Human();
+//Bird bird = new Bird();
+//human.Talk();
+//human.Work();
+
+//bird.Fly();
+//bird.Talk();
+//bird.Work();
+
+//WashingMachine washingMachine = new WashingMachine();
+//DeepFreeze deepFreeze = new DeepFreeze();
+
+//washingMachine.Elecktric();
+//washingMachine.Wash();
+
+//deepFreeze.Elecktric();
+//deepFreeze.Freeze();
+
+#endregion
+
+#region DEPENDENCY INVERSION PRINCIPLE
+
+using SOLID.DependencyInversion;
+Order order = new Order();
+order.Onayla();
+
 #endregion
