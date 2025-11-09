@@ -1,6 +1,6 @@
 ﻿#region SINGLE RESPONSIBILITY PRINCIPLE (Tek Sorumluluk)
 using SOLID;
-using SOLID.LiskovSubstitution;
+//using SOLID.LiskovSubstitution;
 using SOLID.OpenClosed;
 // Her sinifin tek bir sorumlulugu olmalidir. Bir sinifin degistirilme nedeni sadece bir tane olmalidir.
 //StudentService studentService = new StudentService();
@@ -55,7 +55,7 @@ using SOLID.InterFaceSegregation;
 #region DEPENDENCY INVERSION PRINCIPLE
 
 using SOLID.DependencyInversion;
-Order order = new Order();
+Order order = new Order(new MessageService());
 order.Onayla();
 
 #endregion

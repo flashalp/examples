@@ -4,8 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-//namespace SOLID.LiskovSubstitution
-//{
-//    public class Eagle : Bird
-//    {}
-//}
+namespace Sunum.DependencyInversion
+{
+    public interface IOdeme
+    {
+        void Odeme();
+    }
+}

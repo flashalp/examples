@@ -4,8 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-//namespace SOLID.LiskovSubstitution
-//{
-//    public class Eagle : Bird
-//    {}
-//}
+namespace Sunum.LiskovSubstitution
+{
+    public class Dogan : Araba
+    {
+    }
+}
